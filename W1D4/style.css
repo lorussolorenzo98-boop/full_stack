@@ -1,0 +1,76 @@
+body{
+    background-color: #f3f3f3;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+header {
+background-color: #232F3E ;
+padding-left: 8px;
+}
+.head_bar {
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+}
+.item_bar {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 10px 5px 10px
+}
+#logo_amazon {
+    height: 50px;
+    background-color: #232F3E;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+.gift_section {
+    background-color: #FF9900;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 0.2px;
+    padding-bottom: 1px;
+}
+#gift_guides {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.banner {
+  position: relative;        
+  width: 100%;
+  max-height: 300px;         
+  overflow: hidden;          
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;                  
+  left: 50%;                 
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.banner-text h1 {
+  font-size: 2em;
+  margin: 0;
+  font-weight: bold;
+}
+
+.banner-text p {
+  font-size: 1.2em;
+  margin: 5px 0 0 0;
+}
+.container {
+    background-color: white;
+}
+.img_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 250px;
+    
+}
